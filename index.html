@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Private ToDo</title>
+    
+    <link rel="stylesheet" href="style.css"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Martian+Mono:wght@100..800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1 class="date">This is my ToDo List for: <span id="currentDate"></span> </h1>
+        <h1 class="yourLocation">You are located in: <span id="currentLocation"></span></h1>
+    </header>
+    <div class="container" id="container">
+        <div>
+            <div class="inside-elements">
+                <input placeholder="Add Content" id="content">
+                <button id="add-button" onclick="addItemToList()">Add Item</button>
+            </div>
+            <div id="myList" class="mainList first-box">
+            </div>
+        </div>
+        <div class="second-box">
+            <h1>Inprogress</h1>
+            <div class="first-box dropPlace" id="dropPlace">
+            </div>
+        </div>
+        <div class="third-box">
+            <h1>Completed</h1>
+            <div class="first-box dropPlace" id="dropPlace1">
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <h4>Simple JS project learning about geolocations, DOM manipulations, Event Handelers</h4>
+        <h5>By Yelgonda Aniketh Reddy</h5>
+    </footer>
+    
+</body>
+<script type="text/javascript" src="script.js"></script>
+</html>

@@ -1,0 +1,127 @@
+*{
+    font-family: monospace;
+}
+body{
+    background-color: rgb(108, 186, 255);
+}
+header{
+    display: inline-block;
+    .date{
+        font-size: 35px;
+        font-weight: 200px;
+        float: left;
+    }
+    .yourLocation{
+        font-size: 35px;
+        font-weight: 200px;
+        float:right;
+        margin-left:200px;
+    }
+}
+.container{
+    margin: 0px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 400px 400px 400px ;
+}
+.first-box{
+    margin-left: 30px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: aliceblue;
+    min-height: 300px;
+    height: auto;
+    width: 400px;
+
+.dropPlace {
+    width: 400px;
+    height: 300px ;
+    padding-top: 100px;
+}
+
+
+}
+.inside-elements {
+    margin-top: 10px;
+}
+
+#content {
+    width: 210px;
+    padding: 10px;
+    border-radius: 5px;
+    margin-right: 60px;
+    font-size: 20px;
+}
+
+.second-box{
+    margin-left: 30px;
+}
+.third-box {
+    margin-left: 50px;
+}
+
+
+.mainList{
+    width: auto;
+        height: 400px auto;
+        margin: auto;
+        margin-bottom: 40px;
+        overflow: auto;
+        margin-top: 50px;
+        color: white;
+}
+
+#myList{
+   
+    span{
+        color: white;
+        font-size: 25px;
+        align-items: center;
+        display: inline;
+        height: 30px;
+        width: 30px;
+        float: right;
+    }
+    span:hover{
+        background-color: rgb(159, 159, 159);
+        border-radius: 50%;
+    }
+}
+.item{
+    color: black;
+    background-color: rgb(184, 184, 184);
+    border: 2px solid black;
+    padding: 1px 0px 1px 0px;
+    margin: 5px 3px 5px 3px;
+    border-radius: 10px;
+    padding-top:10px ;
+    min-height: 50px;
+    height: auto;
+    overflow: hidden;
+
+h1{
+    display: inline;
+    font-size: 25px;
+    
+}    
+ span {
+     color: white;
+     font-size: 25px;
+     align-items: center;
+     display: inline;
+     height: 30px;
+     width: 30px;
+     float: right;
+ }
+
+ span:hover {
+     background-color: rgb(159, 159, 159);
+     border-radius: 50%;
+ }
+}
+#add-button{
+    padding: 10px;
+    border-radius: 5px;
+}
+
+
